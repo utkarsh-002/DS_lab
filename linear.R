@@ -59,4 +59,4 @@ a<- data.frame(x=170)
 pred = predict(relation,a)
 print(pred)
 
-plot(x,y,col="blue",main="height & weight",abline(relation),cex=1.3,pch=16,xlab = "weight in kg",ylab="height in cm")
+plot(y,x,col="blue",main="height & weight",abline(relation),cex=1.3,pch=16,xlab = "weight in kg",ylab="height in cm")
